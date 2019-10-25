@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 int main()
@@ -10,11 +9,11 @@ const int secInMinute = 60;
         cout << "enter seconds: ";
         cin >> second;
         float sec = second;
-        int day = (int)(second /(hoursInDay*minutesInHour*secInMinute);
+        int day = abs(second /(hoursInDay*minutesInHour*secInMinute));
         second -= (day*hoursInDay*minutesInHour*secInMinute);
-        int hour = (int)(second / (minutesInHour*secInMinute));
+        int hour = abs(second / (minutesInHour*secInMinute));
         second -= (hour*minutesInHour*secInMinute);
-        int min = (int)(second / secInMinute);
+        int min = abs(second / secInMinute);
         second -= (min*secInMinute);
         cout << sec << " seconds = " << day << " days, " << hour << " hours, " << min << " minutes, " << second << " seconds" << endl;
         return 0;
