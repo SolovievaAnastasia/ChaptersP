@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -10,6 +9,6 @@ int main()
 	cin.getline(name, 20);
 	cout << "Enter your surname " << endl;
 	cin.getline(sur, 20);
-	cout << "Name: " << sur << " ,  " << name << endl;
+	cout << "In a sigle string: " << sur << " ,  " << name << endl;
 	return 0;
 }
