@@ -1,0 +1,20 @@
+#include <iostream>
+struct Pizza
+    {
+        char Name [20];
+        double ves;
+        int kolcal;
+    };
+int main ()
+{   using namespace std;
+    Pizza Pie;
+    cout<<"Enter Name:"<<endl;
+    cin.getline (Pie.Name,20);
+    cout<<"Enter diametr:"<<endl;
+    cin>>Pie.ves;
+    cout<<"Enter ves:"<<endl;
+    cin>>Pie.kolcal;
+    cout<<"Pizza: "<<Pie.Name<<endl<<"Diametr: "<<Pie.ves<<endl<<"Ves: "<<Pie.kolcal<<endl;
+    cin.get();
+    return 0;
+  }
