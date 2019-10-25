@@ -1,19 +1,15 @@
 #include <iostream>
-#include <string>
 int main()
 {
     using namespace std;
- 
     cout << "Enter your name:\n";
-    string yourName;
-    getline (cin, yourName);
+    string Name;
+    getline (cin, Name);
  
     cout << "Enter your favorite dessert:\n";
-    string yourDessert;
-    getline (cin, yourDessert);
+    string Dessert;
+    getline (cin, Dessert);
  
-    cout << "I have some delicious " << yourDessert;
-    cout << " for you, " << yourName << ".\n";
-    // cin.get();
+    cout << "I have some delicious " << Dessert << " for you, " << Name << ".\n";
     return 0;
 }
