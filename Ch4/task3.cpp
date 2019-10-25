@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
  
 int main()
@@ -10,6 +9,6 @@ int main()
     cout << "Enter your last name: ";
     char lastName[255];
     cin.getline (lastName, sizeof(lastName));
-    cout << "Here's the information in a single string: " << lastName<<", "<< firstName<<endl;
+    cout << "In a single string: " << lastName<<", "<< firstName<<endl;
     return 0;
 }
