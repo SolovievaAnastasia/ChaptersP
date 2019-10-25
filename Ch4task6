@@ -1,0 +1,49 @@
+#include "stdafx.h"
+#include <iostream>
+struct CandyBar
+{
+	char name[20];
+	double massa;
+	int kcal;
+};
+int main()
+{
+	using namespace std; 
+    СandyBar candyArray[3];
+    cout << "Введите название 1-й коробки: ";
+    cin >> candyArray[0].name;
+    cout << "Введите вес 1-й коробки: ";
+    cin >> candyArray[0].massa;
+    cout << "Введите количество калорий в 1-й коробке: ";
+    cin >> candyArray[0].kcal;
+    cout << endl;
+    
+    cout << "Введите название 2-й коробки: ";
+    cin >> candyArray[1].name;
+    cout << "Введите вес 2-й коробки: ";
+    cin >> candyArray[1].massa;
+    cout << "Введите количество калорий в 2-й коробке: ";
+    cin >> candyArray[1].kcal;
+    cout << endl;
+    
+    cout << "Введите название 3-й коробки: ";
+    cin >> candyArray[2].name;
+    cout << "Введите вес 3-й коробки: ";
+    cin >> candyArray[2].massa;
+    cout << "Введите количество калорий в 3-й коробке: ";
+    cin >> candyArray[2].kcal;
+    cout << endl;
+    
+    cout << "Название 1-й коробки: " << candyArray[0].name << endl;
+    cout << "Вес 1-й коробки: " << candyArray[0].massa << endl;
+    cout << "Количество калорий в 1-й коробке: " << candyArray[0].kcal << endl;
+    
+    cout << "Название 2-й коробки: " << candyArray[1].name<< endl;
+    cout << "Вес 2-й коробки: " << candyArray[1].massa<< endl;
+    cout << "Количество калорий в 2-й коробке: " << candyArray[1].kcal << endl;
+    
+    cout << "Название 3-й коробки: " << candyArray[2].name << endl;
+    cout << "Вес 3-й коробки: " << candyArray[2].massa<< endl;
+    cout << "Количество калорий в 3-й коробке: " << candyArray[2].kcal<< endl;
+    return 0;
+}
