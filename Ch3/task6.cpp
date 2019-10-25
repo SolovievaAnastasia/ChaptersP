@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -9,6 +8,6 @@ int main()
 	cin >> k1;
 	cout << "Second enter kol gallon" << endl;
 	cin >> k2;
-	cout << "finaly " << k1/k2 << " mile/gallon" << endl;
+	cout << "Finaly " << k1/k2 << " mile/gallon" << endl;
 	return 0;
 }
