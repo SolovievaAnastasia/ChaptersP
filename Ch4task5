@@ -1,0 +1,16 @@
+#include "stdafx.h"
+#include <iostream>
+struct CandyBar
+{
+	char Name[20];
+	double massa;
+	int kolcal;
+};
+int main()
+{
+	using namespace std;
+	CandyBar snack = { "Mocha Much",2.3,350 };
+	cout << "Struct )))) " << snack.Name << snack.massa << "     " << snack.kolcal << endl;
+	cin.get();
+	return 0;
+}
