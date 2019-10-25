@@ -4,13 +4,12 @@ struct CandyBar
 {
 	char Name[20];
 	double massa;
-	int kolcal;
+	int kcal;
 };
 int main()
 {
 	using namespace std;
 	CandyBar snack = { "Mocha Much",2.3,350 };
-	cout << "Struct )))) " << snack.Name << snack.massa << "     " << snack.kolcal << endl;
-	cin.get();
+	cout << "The name " << snack.Name << "The weight"<< snack.massa << " The kcal " << snack.kcal << endl;
 	return 0;
 }
