@@ -1,10 +1,7 @@
-#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
-void time(int t, int t1) {
-	cout << t << ":" << t2 << endl;
-}
+void time(int t, int t1) {cout << t << ":" << t2 << endl;}
 int main()
 {
 	int t, t1;
