@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 struct CandyBar
 {
 	char name[20];
@@ -7,7 +8,6 @@ struct CandyBar
 };
 int main()
 {
-	using namespace std;
 	CandyBar snack = { "Mocha Munch",2.3,350 };
 	cout << "The name " << snack.name << '\t'<< " The weight "<< snack.massa<<'\t' << " The kcal " << snack.kcal << endl;
 	return 0;
